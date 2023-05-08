@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 1210px;
+    margin: 0 auto;
+}
+.product-intro{
+    /* width: 1210px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.preview-wrap{
+    width: 352px;
+    height: 500px;
+    background-color: yellowgreen;
+    padding-bottom: 15px;
+    float: left;
+}
+.iteminfo-wrap{
+    width: 590px;
+    height: 800px;
+    background-color: yellow;
+    margin-left: 30px;
+    margin-right: 24px;
+    float: left;
+}
+.track{
+    width: 210px;
+    height: 600px;
+    background-color: pink;
+    float: left;
+}
+.main-img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
+.spec-list{
+    width: 352px;
+    height: 54px;
+    margin-bottom: 18px;
+    background-color: purple;
+    position:relative
+}
+.main-img img{
+    width: 100%;
+    height: 100%;
+}
+.prev,.next{
+    width: 22px;
+    height: 32px;
+    cursor:pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    background-color: red;
+}
+
+.prev{
+    left: 0;
+    background-position: 0 -54px;
+}
+.next{
+    right: 0;
+    background-position:-78px 0;
+}
+.spec-items{
+    position: relative;
+    width: 290px;
+    height: 54px;
+    margin: 0 auto;
+    background-color: brown;
+    overflow: hidden;
+}
+.spec-items ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 406px;
+    height: 54px;
+    background-color: aqua;
+    transition: all 0.5s;
+}
+.spec-items ul li{
+    list-style-type: none;
+    width: 54px;
+    height: 54px;
+    margin: 0 2px;
+    float: left;
+}
+
+.spec-items ul li img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+}
+.spec-items ul .img-hover img{
+    border: 2px solid red;
+}
